@@ -1,0 +1,6 @@
+numpy
+mlxtend
+xgboost
+pyodbc
+scikit-learn
+pandas
