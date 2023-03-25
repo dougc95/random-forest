@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Jupyter Notebook",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/.venv/bin/jupyter-notebook",
+      "args": ["--notebook-dir=${workspaceFolder}", "--no-browser"],
+      "cwd": "${workspaceFolder}",
+      "jupyter": true,
+      "stopOnEntry": false,
+      "env": {},
+      "envFile": "${workspaceFolder}/.env",
+      "debugOptions": ["RedirectOutput"]
+    }
+  ]
+}
