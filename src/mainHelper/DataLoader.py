@@ -4,12 +4,7 @@ import numpy as np
 
 class Data():
 
-    def loadData(self, db, table):
-        conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=DESKTOP-IHIVVUV;'
-                      f'Database={db};'
-                      'Trusted_Connection=yes;')
-
+    def loadData(self, table, conn):
         data = pd.read_sql_query(f'SELECT * FROM {table}', conn)
         return data
 
