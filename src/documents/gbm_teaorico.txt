@@ -1,0 +1,21 @@
+\section{Introducción}
+El Gradient Boosting Machine (GBM) es un método de aprendizaje supervisado utilizado en problemas de clasificación y regresión. GBM es una técnica de ensamblado que combina varios modelos débiles para formar un modelo más fuerte. GBM se basa en la idea de que los modelos débiles, cuando se combinan, pueden dar lugar a un modelo más preciso y generalizable.
+
+\section{Método de Entrenamiento}
+El método de entrenamiento de GBM se basa en la creación de modelos débiles (generalmente árboles de decisión) que se ajustan a los residuos del modelo anterior. El modelo final es una suma ponderada de todos los modelos débiles. El proceso de construcción del modelo se repite varias veces para mejorar su precisión. GBM utiliza la técnica de descenso de gradiente para ajustar los pesos de los modelos débiles.
+
+\section{Ventajas y Desventajas}
+GBM tiene varias ventajas sobre otros métodos de aprendizaje supervisado. GBM es altamente preciso en comparación con otros métodos, y puede manejar grandes conjuntos de datos y características no lineales. GBM también es resistente a valores atípicos y ruido en los datos. Sin embargo, GBM también tiene algunas desventajas, como la complejidad computacional y la necesidad de ajustar varios parámetros.
+
+\section{Aplicaciones}
+GBM se ha utilizado en una amplia variedad de aplicaciones, incluyendo reconocimiento de voz, reconocimiento de imágenes, detección de fraudes, predicción de precios de acciones y predicción de tasas de conversión. GBM es especialmente útil en problemas donde se requiere alta precisión y el tamaño del conjunto de datos es grande.
+
+\section{Conclusiones}
+GBM es un método de aprendizaje supervisado popular y efectivo utilizado en problemas de clasificación y regresión. GBM es capaz de manejar grandes conjuntos de datos y características no lineales, y puede producir modelos altamente precisos. Sin embargo, GBM también tiene algunas desventajas, como la complejidad computacional y la necesidad de ajustar varios parámetros. GBM es una técnica poderosa que puede ser utilizada en una amplia variedad de aplicaciones.
+
+
+\section{GBM: Generalidades}
+
+El modelo de Bosque Gradiente (GBM, por sus siglas en inglés) es un algoritmo de aprendizaje automático que utiliza múltiples árboles de decisión para mejorar la precisión de las predicciones. Este modelo ha demostrado ser muy efectivo en una variedad de aplicaciones, incluyendo la clasificación y la regresión.
+
+El GBM funciona construyendo una serie de árboles de decisión que se ajustan a los datos de entrenamiento y utilizan la información obtenida en cada iteración para mejorar el modelo. Cada árbol se ajusta a los errores del modelo anterior, lo que permite que el GBM se adapte de manera efectiva a patrones complejos en los datos.

@@ -1,0 +1,39 @@
+@article{breiman2001random,
+  title={Random forests},
+  author={Breiman, Leo},
+  journal={Machine learning},
+  volume={45},
+  number={1},
+  pages={5--32},
+  year={2001},
+  publisher={Springer}
+}
+
+@article{friedman2001greedy,
+  title={Greedy function approximation: a gradient boosting machine},
+  author={Friedman, Jerome H},
+  journal={Annals of statistics},
+  pages={1189--1232},
+  year={2001},
+  publisher={JSTOR}
+}
+
+@article{liu2013comparison,
+  title={A comparison of random forest image classification and support vector machine for mapping spatiotemporal dynamics of mangroves},
+  author={Liu, Xiangyang and Chen, Wei and Li, Li},
+  journal={International journal of applied earth observation and geoinformation},
+  volume={23},
+  pages={78--84},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{li2017comparison,
+  title={Comparison of random forest, random ferns and support vector machine for classification of potato leaves infected by late blight disease},
+  author={Li, Yang and Li, Jie and Li, Chao and Li, Yundong},
+  journal={Computers and electronics in agriculture},
+  volume={135},
+  pages={243--251},
+  year={2017},
+  publisher={Elsevier}
+}

@@ -1,0 +1,25 @@
+Random Forest (RF) es un algoritmo de aprendizaje automático que combina árboles de decisión y técnicas de ensamblado para crear un modelo predictivo robusto y preciso. La idea principal detrás de RF es crear múltiples árboles de decisión (denominados "árboles") y combinar sus predicciones para obtener una salida final más precisa y estable.
+
+La técnica de RF fue introducida por Breiman en 2001 \cite{breiman2001random} y se ha convertido en uno de los algoritmos de aprendizaje automático más populares y poderosos. A diferencia de los árboles de decisión individuales, RF tiene una mayor capacidad para manejar problemas de sobreajuste y varianza al reducir la correlación entre los árboles.
+
+El algoritmo de RF funciona de la siguiente manera: primero, se crea un conjunto de muestras aleatorias del conjunto de datos de entrenamiento, conocido como "bootstrap". Luego, se crea un árbol de decisión en cada una de las muestras de bootstrap, utilizando un subconjunto aleatorio de características en cada nodo de división. Finalmente, se combinan las predicciones de todos los árboles individuales para producir una salida final.
+
+Una de las ventajas de RF es que puede manejar características categóricas y numéricas sin la necesidad de codificación previa. Además, RF también es resistente a datos desequilibrados y puede manejar grandes conjuntos de datos. Sin embargo, RF puede ser computacionalmente costoso y requerir una mayor cantidad de recursos de hardware en comparación con los árboles de decisión individuales.
+
+Algunas aplicaciones populares de RF incluyen la clasificación de imágenes y la detección de fraude en tarjetas de crédito \cite{zhou2018random}.
+
+El modelo de Bosque Aleatorio (Random Forest, por sus siglas en inglés) se puede representar matemáticamente como un conjunto de árboles de decisión, donde la variable de respuesta $y$ se modela como la salida promedio de los árboles de decisión en el conjunto:
+
+\begin{equation}
+\hat{y} = \frac{1}{B} \sum_{b=1}^B \hat{y}_b(x)
+\end{equation}
+
+Cada árbol de decisión $\hat{y}_b(x)$ se construye mediante un proceso de aprendizaje supervisado, donde el árbol se ajusta a los datos de entrenamiento utilizando una medida de impureza, como el índice Gini o la entropía de la información.
+
+Además, en cada nodo de división, se selecciona un subconjunto aleatorio de características para determinar la mejor división, lo que introduce una mayor aleatoriedad en el modelo y reduce la correlación entre los árboles en el conjunto.
+
+Para prevenir el sobreajuste (overfitting), se utiliza la técnica de bagging (bootstrap aggregating), en la que se ajustan múltiples árboles de decisión a diferentes muestras de bootstrap del conjunto de entrenamiento.
+
+En general, el modelo de Bosque Aleatorio se caracteriza por su capacidad para manejar grandes conjuntos de datos, trabajar con características altamente correlacionadas y no lineales, y evitar el sobreajuste.
+
+En resumen, el modelo de Bosque Aleatorio se puede representar matemáticamente como un conjunto de árboles de decisión que se construyen de manera independiente utilizando muestras de bootstrap y selección aleatoria de características para cada árbol, y cuyas predicciones se promedian para producir una respuesta final.
